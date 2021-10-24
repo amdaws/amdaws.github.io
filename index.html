@@ -12,8 +12,8 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <title>Site Maintenance</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>Site Maintenance</title>
     <style type="text/css">
       body { text-align: center; padding: 150px; }
       h1 { font-size: 50px; }
@@ -21,39 +21,49 @@
       #article { display: block; text-align: left; width: 650px; margin: 0 auto; }
       a { color: #dc8100; text-decoration: none; }
       a:hover { color: #333; text-decoration: none; }
-    
-      ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+
+      /* Add a black background color to the top navigation */
+.topnav {
   background-color: #333;
+  overflow: hidden;
 }
 
-li {
+/* Style the links inside the navigation bar */
+.topnav a {
   float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover {
-  background-color: #111;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
 </style>
 
 </head>
 <body>
-  <ul>
-    <li><a class="active" href="http://amdaws.github.io">Home</a></li>
-    <li><a href="http://amdaws.github.io/links.html">News</a></li>
-    <!--<li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>-->
+
+  <div class="topnav">
+    <a class="active" href="http://amdaws.github.io">Home</a>
+    <a href="http://amdaws.github.io/links.html">Links</a>
+    <a href="#contact">Contact</a>
+    <!--<a href="#about">About</a>-->
+  </div>
+
+f="#about">About</a></li>-->
   </ul>
 
     <div id="article">
